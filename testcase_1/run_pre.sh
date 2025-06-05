@@ -23,7 +23,7 @@ OUTPUT_FILE="config_fss.cfg"
 sed "s/\/sdiXXX\//\/$STUDENT_ID\//g" "$CONFIG_FILE" > "$OUTPUT_FILE"
 
 rm -rf /home/users/$stud_id/test1/config.cfg 
-cp config_ffs.cfg /home/users/$stud_id/test1/
+cp config_fss.cfg /home/users/$stud_id/test1/
 cp config_nfs.cfg /home/users/$stud_id/test1/
 
 
